@@ -27,6 +27,23 @@ a{
 ul{
     list-style-type: none;
 }
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+}
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem ;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -108,3 +125,71 @@ color: var(--white);
         display: initial;
     }
 }
+/*-----------Main Content--------------------*/
+main .section-title{
+    background: url('../assets/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .section-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+main .section-title h1,h3{
+    margin: .3rem;
+}
+
+main .section-title .btn{
+    margin: 1.8rem;
+    background: var(--sky);
+}
+main .section-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+/**------------------Owl Carousel    --------------------------**/
+main .blog{
+    background: url(../assets/Abract01.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+main .blog .blog-post{
+    padding-top: 6rem;
+}
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+} 
+
+main .blog-content .blog-title{
+    padding: 2rem 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+main .blog-content .btn-blog{
+    padding: 1rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+    width: 150px;
+
+}
+main .blog-content span{
+    display: block;
+}
+span{
+    font-family: var(--Abel);
+}
+/*----End of -------Main Content--------------------*/
