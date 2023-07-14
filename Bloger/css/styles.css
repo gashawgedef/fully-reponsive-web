@@ -255,5 +255,20 @@ main .post-content .post-title a{
     background: var(--sky);
 }
 
+/*----------------Side Bar-------------------------------------------*/
+.site-content>.sidebar .category-list{
+
+}
+.site-content>.sidebar .category-list .list-items{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+/*-----------XXXXXXX-----Side Bar--------------XXXXXXXX---------------------*/
+
     /*------XXXXX-------Site Content----------------XXXXX------------*/
 /*----End of -------Main Content--------------------*/
