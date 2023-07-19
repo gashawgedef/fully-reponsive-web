@@ -304,6 +304,38 @@ main .post-content .post-title a{
     border-radius: 0rem !important;
     background: var(--white) !important;
 }
+.site-content .sidebar .newsletter{
+padding-top: 5rem;
+}
+
+.site-content .sidebar .newsletter .form-element{
+    padding: .5rem 2rem;
+}
+.site-content .sidebar .newsletter  .input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter  .form-btn{
+    border-radius: 0;
+    padding: .8rem 32%;
+    margin: 1rem 0;
+    background: var(--sky);
+}
+
+
+.site-content .sidebar .poppular-tags{
+    padding: 5rem 0;
+}
+.site-content .sidebar .poppular-tags .tags .tag{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
+}
 /*-----------XXXXXXX-----Side Bar--------------XXXXXXXX---------------------*/
 
     /*------XXXXX-------Site Content----------------XXXXX------------*/
